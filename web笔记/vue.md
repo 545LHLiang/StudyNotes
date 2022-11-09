@@ -3,11 +3,21 @@
 # 常用语法及 技巧
 
 - id：使用 npm i   nanoid   使用时  {nanoid}
+
 - 组件传递数据
   -  父与子   正常用 ：传递
   - 子与父   父给子 传函数   子用 props 接受  方法中  使用函数   函数回调输入数据
   - 父与孙     main.js 创建  全局总线     父挂载中 \$bus.\$on('名字'，回调)   传数据   \$bus.$emit('父的名字'，数据) 传输
+
 - 单向数据绑定：v-bind： 双向绑定  v-model
+
+- 事件：dbl/click 双单击 focus/blur获/失焦点  keyup/down（..enter.tab.delete.esc.space.up.down.left.right）
+
+  ​          load 进入某个页面触发    change改变   mouseover/out/up/down/press   移入移除按下 放开	 按下并松开
+
+  ​         select文本被选中   reset  重置按钮被点击   submit  提交按钮被点击
+
+  ​	mouseenter 和 mouseleave   移入移除 推荐
 
 ## vue核心
 
