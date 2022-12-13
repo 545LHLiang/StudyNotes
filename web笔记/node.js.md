@@ -158,6 +158,7 @@
 
 - ```js
    res.setHeader('Content-Type', 'text/html; charset=utf-8')
+   ```
   ```
 
 ###  根据不同的url响应不同的html内容
@@ -299,6 +300,7 @@
   app.listen(80, () => {
     console.log('express server running at http://127.0.0.1')
   })
+  ```
 
 
   // 在这里，调用 express.static() 方法，快速的对外提供静态资源
@@ -308,7 +310,6 @@
   app.listen(80, () => {
     console.log('express server running at http://127.0.0.1')
   })
-  ```
 
 ###  nodemon
 
@@ -319,7 +320,8 @@
 
 - 最简单的路由使用
 
-- ```js
+
+  ```
   // 挂载路由
   app.get('/', (req, res) => {
     res.send('hello world.')
